@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Source+Code+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Heebo&family=Open+Sans&family=Source+Code+Pro:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+logo{
+    text-align: center;
+    font-weight: bold;
+}
+form{
+    padding: 0px 43px;
+    margin: -120px 157px;
+}
+.Information{
+    padding: 0px 43px;
+    margin: -630px 250px;
+    
+}
+.Information p{
+    font-size: 20px;
+}
+.Information h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.sidebar{
+    width: 10vw;
+    width: 198px;
+    font-family: 'Fira Sans', sans-serif;
+    
+    height: 100vh;
+    background-color: #C6AFC8;
+    transition: transform 0.3s ;
+}
+.sidebar nav{
+    padding: 10px;
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 2em;
+    padding: 50px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+.sidebar nav li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.game-image{
+    size: 2px;
+}
+.main{
+    
+    background-color: #B3B5DF;
+    width: 90vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(232, 250, 129);
+}
+
+
+.infocontainer{
+    width: 80vw;
+    margin: 130px auto;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    margin: 40px;
+    font-size: 18px;
+}
+.hello{
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+}
+.about{
+    font-size: 2em;
+}
+.moreabout{
+    font-size: 2em;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    margin: 0px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.image img{
+    height: 50vh;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 40px;
+    padding-top: 100px;
+    margin: 0 100px;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    padding-bottom: 139px;
+}
+
+.contactform form div{
+    padding: 27px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 20vw;
+    border-radius: 6px;
+    font-size: 20;
+    font-size: 20px;
+}
+.contactform form button{
+    padding: 17px;
+    font-size: 16px;
+    color: rgb(85, 224, 248);
+    background-color: dodgerblue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.contactform form button:hover{
+    color: dodgerblue;
+    background-color: rgb(232, 250, 129);
+
+}
+.you{
+    padding-top: 130px;
+}
+.you .profile{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.you .profile .icon{
+    margin: 10px;
+}
+
+
+.flex{
+    margin: 10px;
+}
+.intro{
+    padding-top: 30px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.intro p{
+    padding-top: 10px;
+}
+.Education{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.Education table td{
+    padding: 10px;
+}
+.Hobbiess{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.moremain{
+    margin: 25px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.project-intro{
+    padding-bottom: 10px;
+}
+.project-intro p{
+    font-size: 20px;
+}
+.projects{
+    display: grid;
+    grid-template-rows: 280px 280px;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 60px;
+    column-gap: 150px;
+}
+.ceaser .ceaser-img img{
+    height: 10vh;
+    width: 20vw;
+}
+.ceaser .ceaser-img a{
+    display: block;
+}
+.mergesort .mergesort-img img{
+    height: 10vh;
+    width: 20vw;
+  
+}
+.mergesort .mergesort-img a{
+    display: block;
+}
+.web .para .web-image img{
+    height: 20vh;
+    width: 20vw;
+}
+.web .para .web-image a{
+    display: block;
+}
+.game .para  .game-image img{
+    height: 20vh;
+    width: 20vw;
+}
+.game .game-image  a{
+    display: block;
+}
+.moremain a:hover{
+    color: red;
+}
+
+.ceaser{
+    display: flex;
+    flex-direction: column;
+}
+.ceaser .para p{
+    font-size: 20px;
+}
+.ceaser .ceaser-img img{
+    height: 80px;
+    width: 10vw;
+}
+.ceaser .ceaser-img a{
+    display: block;
+}
+.mergesort{
+    padding-top: 20px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.mergesort .para p{
+    font-size: 20px;
+}
+.mergesort .mergesort-img img{
+    height: 80px;
+    width: 20vw;
+}
+.mergesort .mergesort-img a{
+    display: block;
+}
+.web{
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.web .para .web-image img{
+    height: 118px;
+}
+.web .para .web-image a{
+    display: block;
+}
+.moremain a:hover{
+    color: red;
+}*/
+
+.sidebarGo{
+    transform: translate(-164px,0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 68px;
+}
+@media(max-width:1200px){
+
+   .sidebarGo{
+        transform: translate(-164px,0px);
+    }
+
+}
+@media(max-width:600px){
+    .main,.sidebar{
+        height: auto;
+    }
+    .infocontainer{
+        height: 100vh;
+        margin: auto;
+    }
+    .projects{
+        row-gap: 200px;
+    }
+    .moremain{
+        margin: 20px;
+    }
+    .contactform{
+        padding-top: 50px;
+    }
+    
+    
+}
+@media(max-width:1070px){
+    .info{
+        font-size: 10px;
+    }
+    
+    
+
+}
+@media(max-width:960px){
+    .infocontainer{
+        flex-direction: column;
+       
+    }
+}
+@media(max-width:815px){
+    .info{
+        font-size: 6px;
+    }
+}
+@media(max-width:460px){
+    .projects{
+        row-gap: 380px;
+    }
+}

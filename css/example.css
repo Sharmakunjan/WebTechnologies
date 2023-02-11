@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2f3a41;
+    
+  }
+  header {
+    background-color: #094c75;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  #home {
+    background-color: #2f3a41;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #about {
+    background-color: #2f3a41;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #skills {
+    background-color: #2f3a41;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #contact {
+    background-color: #2f3a41;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #feedback {
+    background-color: #2f3a41;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav li {
+    margin-right: 20px;
+  }
+  nav a {
+    color: #060113;
+    text-decoration: none;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 40px);
+  }
+  section {
+    background-color: #2f3a41;
+    border: 1px solid #2f3a41;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  footer {
+    background-color: #333;
+    color: #7ce662;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .slider {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  .slide {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  @media (max-width: 767px) {
+    header {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    header {
+      font-size: 16px;
+      padding: 15px;
+    }
+  }
+  @media (min-width: 992px) {
+    header {
+      font-size: 18px;
+      padding: 20px;
+    }
+  }
+  
